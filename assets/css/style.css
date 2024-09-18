@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#userAge {
+    color: rgba(82, 49, 116, 0.692);
+    margin-bottom: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    gap: 15px;
+    width: 450px;
+    padding: 45px;
+    border: 2px solid rgba(238, 127, 205, 0.959);
+}
+
+label {
+    font-size: 20px;
+    color: rgb(83, 49, 116);
+    font-weight: 500;
+}
+
+input {
+    font-size: 20px;
+    border: 2px solid rgba(238, 127, 205, 0.959);
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.btn {
+    border: 2px solid rgba(238, 127, 205, 0.959);
+    background-color: rgba(238, 127, 205, 0.959);
+    color: rgb(83, 49, 116);
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    background-color: rgba(238, 127, 205, 0.274);
+    color: rgb(83, 49, 116);
+    transition: 0.5s ease-in;
+    border: 2px solid rgba(238, 127, 205, 0);;
+}
+
+.error__input {
+    border: 2px solid rgb(204, 54, 54);
+}
+
+.error {
+    margin-top: -15px;
+}
